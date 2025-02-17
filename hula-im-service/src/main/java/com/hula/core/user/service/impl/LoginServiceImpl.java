@@ -51,7 +51,7 @@ public class LoginServiceImpl implements LoginService {
         if (!userCache.isOnline(queryUser.getId())) {
             applicationEventPublisher.publishEvent(new UserOnlineEvent(this, queryUser));
         }
-        return  tokenService.createToken(queryUser.getId(), LoginTypeEnum.PC);
+        return tokenService.createToken(queryUser.getId(), LoginTypeEnum.PC);
     }
 
     @Override
