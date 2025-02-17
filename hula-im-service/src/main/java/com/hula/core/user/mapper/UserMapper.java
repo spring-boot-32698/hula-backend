@@ -2,6 +2,7 @@ package com.hula.core.user.mapper;
 
 import com.hula.core.user.domain.entity.User;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import org.apache.ibatis.annotations.Param;
 
 /**
  * <p>
@@ -12,5 +13,5 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  */
 public interface UserMapper extends BaseMapper<User> {
 
-	int changeUserState(Long employeeId, Long userStateId);
+	int changeUserState(@Param("employeeId") Long employeeId, @Param("userStateId") Long userStateId);
 }

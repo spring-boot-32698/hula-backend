@@ -5,6 +5,6 @@
     <update id="changeUserState">
         UPDATE user
         SET user_state_id = #{userStateId}
-        WHERE id = #{id}
+        WHERE id = #{employeeId}
     </update>
 </mapper>
