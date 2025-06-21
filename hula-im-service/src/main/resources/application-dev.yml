@@ -4,7 +4,7 @@ HuLa-IM:
   MYSQL_PORT: 3306 #端口
   DATABASE_NAME: hula-im #数据库名
   MYSQL_USER_NAME: root #数据库用户名
-  MYSQL_PASSWORD: 123456 #数据库密码
+  MYSQL_PASSWORD: root #数据库密码
   REDIS:
     PAW: 123456 #redis密码, 如果是数字密码最好用引号包裹起来
     PORT: 6379 # redis端口号
@@ -21,10 +21,10 @@ HuLa-IM:
     ACCESS-KEY: hulaspark
     SECRET-KEY: hula123456789
   mail:
-    host: smtp.qq.com
-    port: 465
-    username: xxxxxxxxxxxxxxx  # 发件人邮箱
-    password: xxxxxxxx    # 邮箱SMTP授权码
+    host: smtp.gmail.com
+    port: 587
+    username: henry.vu.32698.001@gmail.com  # 发件人邮箱
+    password: zuvm tpbx clmw slof    # 邮箱SMTP授权码
 
 uid:
   database:

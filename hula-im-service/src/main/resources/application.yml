@@ -70,6 +70,7 @@ spring:
       # 连接超时时间
       timeout: 1800000
   mail:
+    protocol: smtp
     host: ${HuLa-IM.mail.host}            # 邮箱SMTP服务器
     port: ${HuLa-IM.mail.port}            # SSL端口
     username: ${HuLa-IM.mail.username}    # 发件人邮箱
